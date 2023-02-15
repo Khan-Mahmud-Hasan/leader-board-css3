@@ -7,6 +7,30 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
 }
+.nav{
+    background-color: #562EFF;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:15px
+}
+.logo img{
+    width: 40px;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap:35px
+}
+.menu ul li{
+    list-style: none;
+    text-decoration: none;
+}
 
 main {
     display: flex;
